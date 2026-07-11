@@ -71,7 +71,7 @@ then I started with arranging the main components in a rough manner (MCU , Senso
 <img width="1457" height="780" alt="Screenshot 2026-07-05 154851" src="https://github.com/user-attachments/assets/c432514b-5410-49de-919a-8d7630c03d82" />
 
  ### Routing the PCB (Part-1)
-Hours :- 4.1 
+Hours :- 4.1 hr 
 
 So I started with routing the PCB firstly I routed the USB-C and the differential pair for data.
 
@@ -107,10 +107,30 @@ Some places Power connection were missing SO I needed to rout it
 
 
 <img width="497" height="612" alt="Screenshot 2026-07-05 164552" src="https://github.com/user-attachments/assets/3938d0e2-bf84-472e-9af9-0cb7fe4fe379" />
-I left the GND Connection and 3.3V Connection in major places because I will be using Fillzone of them on top and bottom Layer. So there were some more visual connections left SO I tried to join them all and this is how the PCB Looks now
+I left the GND Connection and 3.3V Connection in major places because I will be using Fillzone of them on top and bottom Layer. So there were some more visual connections left SO I tried to join them all and this is how the PCB Looks now 
+
+
 
 
 <img width="722" height="448" alt="Screenshot 2026-07-05 164735" src="https://github.com/user-attachments/assets/c8c243ac-3dd1-4ddc-b731-a0a3d353e6a3" />
 I added  the fill zones (Top layer is 3.3V and bottom layer is GND ) PCB Look after fillzone 
+
+ ### Routing the PCB (Polishing The Rout / Fixing the errors and Disconnection )
+Hours :- 3.75 hr 
+
+So there were many not perfect routs on the board
+
+<img width="855" height="117" alt="Screenshot 2026-07-05 171402 (1)" src="https://github.com/user-attachments/assets/bd6c8417-fb7b-4333-bb97-78121831ea4e" />
+
+and the board had many disconnections as well
+<img width="601" height="503" alt="Screenshot 2026-07-05 171416" src="https://github.com/user-attachments/assets/6c542174-e291-4fdc-a17b-9685de49b295" />
+
+. So I started solving them one by one . I will start with fixing the connections then I will move to Check things by rule checker and at the end I will polish all the routs . So I Saw multiple disconnection On the PCB and started Solving them one by one . I tried to keep the rout as simple as possible these are few of the 3.3V and GND connections that I solved
+
+
+<img width="963" height="472" alt="Screenshot 2026-07-05 171922" src="https://github.com/user-attachments/assets/3bc407e2-49e0-4e2a-87e8-b31fb697cd93" />
+<img width="643" height="751" alt="Screenshot 2026-07-05 172715" src="https://github.com/user-attachments/assets/f3127f55-b601-49b2-a2ba-7b24f668dbba" />
+
+
 <img width="680" height="448" alt="Screenshot 2026-07-05 164933" src="https://github.com/user-attachments/assets/235beed2-97cf-4154-a6af-db0151f354fa" />
 <img width="697" height="443" alt="Screenshot 2026-07-05 165213" src="https://github.com/user-attachments/assets/d91ec826-cfbf-4137-afad-69d495e719c3" />
