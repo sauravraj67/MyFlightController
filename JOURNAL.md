@@ -51,3 +51,24 @@ Then I added two ESC's Connectors to control the brush less motor's. (One on eac
 then I added 6 100pf Decoupling capacitors to the MCU . (2 near each sensors) and attached it to MCU<img width="905" height="480" alt="Screenshot 2026-07-05 130800" src="https://github.com/user-attachments/assets/0572c76c-db3c-4837-943e-d40aa81e8c7f" />
 
 and then at the END I attached all the labels to the MCU (Data, 3 pair of I2C from sensors , 2 pair of ESC's and servos and the 2 connection form the receiver , and rest power Gnd oscillator things ). I made sure that I connected each connection at the right place as er the pin layout  and this is the final look of the schematics <img width="1187" height="657" alt="Screenshot 2026-07-05 131710 (1)" src="https://github.com/user-attachments/assets/8ef4dd77-58cd-4e4f-90d3-fc03179b79e2" />
+
+
+###  PCB Design<br><br>
+
+## Started with PCB ( Component placement)
+hours :- 5.2 hr
+So I started with designing the PCB Layout . First I updated the PCB with the schematics and this is how it looked
+<img width="547" height="527" alt="Screenshot 2026-07-05 155133" src="https://github.com/user-attachments/assets/384e661f-9ba2-45b4-8c3b-07e4ae0c8444" />
+
+then I started with arranging the main components in a rough manner (MCU , Sensor , USB ,Voltage regulators), then I started arranging the other small components (Like Resistors and capacitors) near to there connection I a proper manner So there would be easy while routing. after I completed that I Started placing all the small circuit clusters onto the board In a standard manner . I wanted the board to hold a rectangular dimension. So I made sure to maintain that shape while placing the components also made sure that there is enough space for routing and components are placed specifically that there rout are clean and short. at the end I placed all the connectors pins for the ESC , receiver and servos. I went for few alteration but ended up with this
+
+<img width="668" height="428" alt="Screenshot 2026-07-05 155422" src="https://github.com/user-attachments/assets/f431c22e-a541-403f-ae12-5520524cc532" />
+
+.after that I added the Holes for connection and them made added the boundary and this is the final look of it then at the end added the text logo and connection guiled for each of the connection.
+
+<img width="732" height="503" alt="Screenshot 2026-07-05 154857" src="https://github.com/user-attachments/assets/2ebbd9af-9869-40cc-a84f-d368dd763c06" />
+
+<img width="1457" height="780" alt="Screenshot 2026-07-05 154851" src="https://github.com/user-attachments/assets/c432514b-5410-49de-919a-8d7630c03d82" />
+
+
+
