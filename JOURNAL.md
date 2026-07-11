@@ -115,6 +115,10 @@ I left the GND Connection and 3.3V Connection in major places because I will be 
 <img width="722" height="448" alt="Screenshot 2026-07-05 164735" src="https://github.com/user-attachments/assets/c8c243ac-3dd1-4ddc-b731-a0a3d353e6a3" />
 I added  the fill zones (Top layer is 3.3V and bottom layer is GND ) PCB Look after fillzone 
 
+<img width="680" height="448" alt="Screenshot 2026-07-05 164933" src="https://github.com/user-attachments/assets/235beed2-97cf-4154-a6af-db0151f354fa" />
+<img width="697" height="443" alt="Screenshot 2026-07-05 165213" src="https://github.com/user-attachments/assets/d91ec826-cfbf-4137-afad-69d495e719c3" />
+
+
  ### Routing the PCB (Polishing The Rout / Fixing the errors and Disconnection )
 Hours :- 3.75 hr 
 
@@ -130,7 +134,29 @@ and the board had many disconnections as well
 
 <img width="963" height="472" alt="Screenshot 2026-07-05 171922" src="https://github.com/user-attachments/assets/3bc407e2-49e0-4e2a-87e8-b31fb697cd93" />
 <img width="643" height="751" alt="Screenshot 2026-07-05 172715" src="https://github.com/user-attachments/assets/f3127f55-b601-49b2-a2ba-7b24f668dbba" />
+<img width="652" height="763" alt="Screenshot 2026-07-05 172807" src="https://github.com/user-attachments/assets/0d20da1d-59c1-4fbf-82ca-406e90c629f4" />
+<img width="731" height="448" alt="Screenshot 2026-07-05 172925" src="https://github.com/user-attachments/assets/504b698d-4cad-4cdd-bbf8-4b474028aa08" />
+
+. Many places it was almost impossible to rout around but I did it somehow via changing the existing Rout and things. So this is how the PCB Looks after the update
+
+<img width="1002" height="643" alt="Screenshot 2026-07-05 173737" src="https://github.com/user-attachments/assets/a82ed0a1-6374-4c16-b543-7bd7c0b39469" />
+
+ There were No mis-connecton left I checked it from the rule checker 
+
+ . Now It is the last step after which the PCB work will be finished that Is Polishing the routs . So there are many not well routed rout (That I missed or changed it's path while I routed other rout may be due to overlapping of routs ). Like this Before
+ <img width="538" height="521" alt="Screenshot 2026-07-05 175437" src="https://github.com/user-attachments/assets/af819955-ffb2-4480-b717-679860313f93" />
+
+And After <img width="887" height="448" alt="Screenshot 2026-07-05 175524" src="https://github.com/user-attachments/assets/ebd66a62-8423-40cd-8df9-27950b5f4e2a" />
+
+. I did this for many other places and these are the few after result
+
+<img width="1122" height="375" alt="Screenshot 2026-07-05 180842" src="https://github.com/user-attachments/assets/8e8ba08d-d3e2-47a9-ac3a-f04a8a9543c4" />
+<img width="382" height="532" alt="Screenshot 2026-07-05 180440" src="https://github.com/user-attachments/assets/3a060d91-605e-4ed7-bc39-0c45e75bcbd6" />
+<img width="481" height="508" alt="Screenshot 2026-07-05 180248" src="https://github.com/user-attachments/assets/2cae48f4-0e9f-44b2-a29e-be7a8322e222" />
+
+. This thing isn't compulsory but it increases the efficiency of the of the Board hence will help us in the project . So this is the final PCB look<img width="987" height="627" alt="Screenshot 2026-07-05 180523" src="https://github.com/user-attachments/assets/5b48f85f-2c8f-4313-89e1-c1d5dbab9bba" />
+
+In 3D
+ <img width="976" height="821" alt="Screenshot 2026-07-05 180633 (1)" src="https://github.com/user-attachments/assets/062a54ae-1e29-4c18-b0e3-669bdd5e0778" />
 
 
-<img width="680" height="448" alt="Screenshot 2026-07-05 164933" src="https://github.com/user-attachments/assets/235beed2-97cf-4154-a6af-db0151f354fa" />
-<img width="697" height="443" alt="Screenshot 2026-07-05 165213" src="https://github.com/user-attachments/assets/d91ec826-cfbf-4137-afad-69d495e719c3" />
