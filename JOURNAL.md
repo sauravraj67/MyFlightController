@@ -16,4 +16,9 @@ then I added a connector for Battery Connection (I will be using a 12V battery h
 
 <img width="1303" height="276" alt="Screenshot 2026-07-05 113521" src="https://github.com/user-attachments/assets/cd7953d2-c92b-4336-9ac0-734ad53e9a22" />
 
+then I need to add a 5v Buck converter for powering the servos , receiver and the ESC's . So for that I choose (L7805). It has a very basic circuit SO I made it and added the respective capacitors of the needed values and added the label .
+<img width="1025" height="342" alt="Screenshot 2026-07-05 120840" src="https://github.com/user-attachments/assets/3f885e95-8392-433a-9e24-4af18793969e" />
 
+I didn't added any external filter over here because it wasn't much necessary.(As it is just for output devices like ESC's and servos) then It was the time to add an IMU . SO for the first IMU I went with (MPU-6050). as It is widely available and easy to integrate . It needed 3.3V logic so I didn't need to make any extra regulators for it and it will communicate through I2C to the IMU. So I made the respective circuit and added the label to the respective places and this is how it looks
+
+<img width="582" height="647" alt="Screenshot 2026-07-05 122034" src="https://github.com/user-attachments/assets/b09c07b8-767c-4cbe-82c9-a14c417abd44" />
