@@ -70,5 +70,47 @@ then I started with arranging the main components in a rough manner (MCU , Senso
 
 <img width="1457" height="780" alt="Screenshot 2026-07-05 154851" src="https://github.com/user-attachments/assets/c432514b-5410-49de-919a-8d7630c03d82" />
 
+ ### Routing the PCB (Part-1)
+Hours :- 4.1 
+
+So I started with routing the PCB firstly I routed the USB-C and the differential pair for data.
+
+<img width="1446" height="262" alt="Screenshot 2026-07-05 160340" src="https://github.com/user-attachments/assets/d95e29c3-9641-429e-8e08-0e9c46999471" />
+
+then I made connection for the power system
+
+<img width="1446" height="262" alt="Screenshot 2026-07-05 160340" src="https://github.com/user-attachments/assets/28a5d873-7a39-4961-94d6-5c4224d2a5ce" />
+after that I started routing the Sensors circuit
+
+<img width="1056" height="632" alt="Screenshot 2026-07-05 161552" src="https://github.com/user-attachments/assets/d5faa8df-b280-4df3-a4cb-dd9a9ca39666" />
+after that I made more circuit connections
+<img width="1056" height="632" alt="Screenshot 2026-07-05 161552" src="https://github.com/user-attachments/assets/c4ecaf89-5b8f-460b-bf66-f0914cfd6549" />
+and then I started joining the SDA and SCL AD connections from Sensores to the MCU. Where wthere wasn't a way to rout I used vias to keep the circuit clean
+<img width="297" height="637" alt="Screenshot 2026-07-05 162242" src="https://github.com/user-attachments/assets/7204795b-0b5a-4d7a-aff8-1480a3473413" />
+<img width="180" height="305" alt="Screenshot 2026-07-05 162048" src="https://github.com/user-attachments/assets/b247ee7d-793b-488f-8b2b-56ec83a00fa7" />
 
 
+after all this there were still many connection that I left like the boot pin and the servos So I routed it
+
+<img width="762" height="636" alt="Screenshot 2026-07-05 163229" src="https://github.com/user-attachments/assets/4a5e8e92-7ebe-4481-90eb-c9a5cc6ea834" />
+
+. Many a Places 5V connection was missing to I used vias and routed it . I used Thick Routs for the 12V and 5V connections. again I saw the board and receivers data connections rout were missing anf this is how the PCB looks now 
+
+<img width="672" height="452" alt="Screenshot 2026-07-05 163627" src="https://github.com/user-attachments/assets/0eb974d0-750a-4d08-b062-66392e1f6971" />
+
+
+SO I started routing it I had a bit of issues as the routs were very close and I wasn't able to make a rout
+SO I made few changes in the rout , It took me a bit of time but I was able to rout it through .
+<img width="897" height="670" alt="Screenshot 2026-07-05 164201" src="https://github.com/user-attachments/assets/e45bd441-b997-4996-ac16-d6ff2d4746de" />
+
+Some places Power connection were missing SO I needed to rout it
+
+
+<img width="497" height="612" alt="Screenshot 2026-07-05 164552" src="https://github.com/user-attachments/assets/3938d0e2-bf84-472e-9af9-0cb7fe4fe379" />
+I left the GND Connection and 3.3V Connection in major places because I will be using Fillzone of them on top and bottom Layer. So there were some more visual connections left SO I tried to join them all and this is how the PCB Looks now
+
+
+<img width="722" height="448" alt="Screenshot 2026-07-05 164735" src="https://github.com/user-attachments/assets/c8c243ac-3dd1-4ddc-b731-a0a3d353e6a3" />
+I added  the fill zones (Top layer is 3.3V and bottom layer is GND ) PCB Look after fillzone 
+<img width="680" height="448" alt="Screenshot 2026-07-05 164933" src="https://github.com/user-attachments/assets/235beed2-97cf-4154-a6af-db0151f354fa" />
+<img width="697" height="443" alt="Screenshot 2026-07-05 165213" src="https://github.com/user-attachments/assets/d91ec826-cfbf-4137-afad-69d495e719c3" />
